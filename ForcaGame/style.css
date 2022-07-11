@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  --c0: rgb(245, 229, 229);
+  --c1: rgb(254, 212, 213);
+  --c2: rgb(220, 190, 217);
+  --c3: rgb(200, 174, 217);
+  --c4: rgb(177, 159, 204);
+  --c5: rgb(153, 140, 185);
+  --c6: rgb(130, 122, 166);
+  --c7: rgb(107, 104, 147);
+  --c8: rgb(85, 89, 134);
+  --c9: rgb(64, 67, 100);
+  --c10: rgb(46, 44, 63);
+  background-color: var(--c10);
+}
+body {
+  background-image: url("../assets/virus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+img{
+  width: 80%;
+  margin: 20px auto;
+  max-height:200px;
+}
+button {
+  border: 1px solid #8f3b76;
+  border-radius: 3px;
+  color: white;
+  background-color: #1f306ed4;
+  padding: 10px;
+}
+h1 {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-shadow: #1f306e 3px 3px, #222 5px 5px 5px;
+  color: #f5487f;
+}
+h2{
+  text-align: center;
+}
+span {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 25px;
+  border-bottom: 5px solid #8f3b76;
+  color: #1f306e;
+  width: 45px;
+  margin: 5px;
+}
+button {
+  border: 1px solid #8f3b76;
+  border-radius: 3px;
+  color: white;
+  background-color: #1f306ed4;
+  padding: 10px;
+  margin: 3px;
+}
+button.novo-bt {
+  width: auto;
+  padding: 10px;
+}
+.flex-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-2-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.flex-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+#novo {
+  text-align: center;
+}
+#venceu {
+  font-size: 25px;
+}
+.Voltar {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--c10);
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+}
+.voltarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,63 @@
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  color: #222;
+  text-align: center;
+  background-image: url("./assets/virus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  background: #f1f1f1;
+  width: 50%;
+  margin:20px auto;
+  border-radius:5px;
+  box-shadow: 4px 4px 5px #222;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+header h1 {
+  font-weight: 900;
+  text-shadow: #1f306e 3px 3px, #222 5px 5px 5px;
+  color: #f5487f;
+}
+.card {
+  background-color: #1f306e;
+  border-radius: 5px;
+  min-height: 150px;
+  color: #f5487f;
+  margin: 10px auto;
+  font-size: 0.5rem;
+}
+.card p {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+.card h1 {
+  padding: 10px;
+  font-weight: bold;
+}
+.card img {
+  width: 100%;
+  max-height: 100px;
+  height: 100px;
+  border-radius: 5px 5px 0px 0;
+}
+.CardsGames {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+.cardContainer {
+  max-width: 260px;
+}

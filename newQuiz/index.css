@@ -1,0 +1,104 @@
+h1 {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-shadow: #1f306e 3px 3px, #222 5px 5px 5px;
+  color: #f5487f;
+}
+body {
+  background: #222;
+  background-image: url("../assets/virus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: 1px solid #8f3b76;
+  border-radius: 3px;
+  color: white;
+  background-color: #1f306ed4;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+button:hover {
+  background: #1f306ed4 radial-gradient(circle, transparent 1%, #1f306ed4 1%)
+    center/15000%;
+}
+button:active {
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.proximaQuestao {
+  display: none;
+  width: auto;
+  background-color: rgb(213, 45, 96);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #1f306ed4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.divBotoes {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.selecionado {
+  background-color: #4f5ebf;
+  color: white;
+}
+
+.quiz-body {
+  display: flex;
+  justify-content: center;
+  border: 1px;
+  border-radius: 3px;
+  flex-direction: column;
+  background-color: #fff;
+  color: red;
+  margin:10px;
+  padding:10px
+}
+
+
+.voltaMenu {
+  display: none;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(213, 45, 96);
+}
+
+#esteAqui{
+  text-align:justify;
+  margin:10px;
+}
